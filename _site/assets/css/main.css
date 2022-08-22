@@ -12,9 +12,9 @@ body {
     padding: 0
 }
 
-@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 html {
-    font-family: 'Iropke Batang', "Libre Baskerville", "Times New Roman", Times, serif;
+    font-family: 'Gowun Dodum', "Libre Baskerville", "Times New Roman", Times, serif;
     font-size: 14px
 }
 
@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
     color: #353535;
-    font-family: 'Iropke Batang', "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: 'Gowun Dodum', "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
     line-height: normal
 }
 
@@ -646,4 +646,4 @@ footer span {
 
 .social-layer .social-icons ul li {
     display: inline
-}
+} 
