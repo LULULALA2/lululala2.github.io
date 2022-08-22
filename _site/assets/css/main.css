@@ -12,9 +12,9 @@ body {
     padding: 0
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
 html {
-    font-family: 'Gowun Dodum', "Libre Baskerville", "Times New Roman", Times, serif;
+    font-family: 'Iropke Batang', "Libre Baskerville", "Times New Roman", Times, serif;
     font-size: 14px
 }
 

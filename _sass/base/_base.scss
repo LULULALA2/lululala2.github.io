@@ -10,8 +10,9 @@ body {
   padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 html {
-  font-family: $serif-primary;
+  font-family: 'Iropke Batang', $serif-primary;
   font-size: 14px;
 
   @media (min-width: 600px) {
