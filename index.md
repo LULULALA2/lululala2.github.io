@@ -2,9 +2,10 @@
 layout: about 
 ---
 
+
 # About Me
-백엔드를 위주로 공부하고 있지만 프론트엔드에도 흥미가 있습니다.
-<br/>Python 기반의 Flask, Django, DRF를 이용한 ML 웹페이지 제작 팀 프로젝트를 진행하면서 프론트엔드와 백엔드를 가리지 않고 맡았습니다. 프론트는 AWS S3, cloudfront로 CICD는 git actions을 통해 배포해본 적이 있으며, 백엔드는 docker를 이용하여 AWS EC2로 배포해본 경험이 있습니다.
+<strong style="color: rgb(80, 80, 80); line-height: 170%;">백엔드를 위주로 공부하고 있지만 프론트엔드에도 흥미가 있습니다.
+<br/>Python 기반의 Flask, Django, DRF를 이용한 ML 웹페이지 제작 팀 프로젝트를 진행하면서 프론트엔드와 백엔드를 가리지 않고 맡았습니다. 프론트는 AWS S3, cloudfront로 CICD는 git actions을 통해 배포해본 적이 있으며, 백엔드는 docker를 이용하여 AWS EC2로 배포해본 경험이 있습니다.</strong>
 <br/>
 
 
@@ -13,22 +14,22 @@ layout: about
 <table>
   <tbody>
     <tr>
-      <th><strong>Languages</strong>      </th>
+      <th><strong>Languages</strong></th>
       <td><img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&amp;logo=Python&amp;logoColor=white" alt="Python" /></td>
       <td><img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white" alt="JavaScript" /></th>
     </tr>
     <tr>
-      <th><strong>Frameworks</strong>      </th>
+      <th><strong>Frameworks</strong></th>
       <td><img src="https://img.shields.io/badge/-Django-092E20?style=for-the-badge&amp;logo=Django&amp;logoColor=white" alt="Django" /></td>
     </tr>
     <tr>
-      <th><strong>Tools</strong>      </th>
+      <th><strong>Tools</strong></th>
       <td><img src="https://img.shields.io/badge/-Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white" alt="Amazon EC2" /></th>      
         <td><img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white" alt="Docker" /></th>
         <td><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white" alt="GitHub" /></td>
     </tr>
     <tr>
-      <th><strong>Design</strong>      </th>
+      <th><strong>Design</strong></th>
       <td><img src="https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&amp;logo=HTML5&amp;logoColor=white" alt="HTML" /></td>
       <td><img src="https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&amp;logo=CSS3&amp;logoColor=white" alt="CSS" /></td>
       <td><img src="https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&amp;logo=Bootstrap&amp;logoColor=white" alt="Bootstrap" /></td>
@@ -38,15 +39,23 @@ layout: about
 <br/>
 
 <p><a href="https://github.com/lululala2/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lululala2&amp;layout=compact" alt="Top Langs" /></a></p>
+<br/>
+<br/>
 
-<br/>
-<br/>
 
 # Career
-* 스파르타 코딩클럽 내일배움캠프 2기(2022/04 ~ 2022/08)
-  * 실무형 AI 웹 개발자 과정 수료
-  * 기간 중 팀 프로젝트 진행
-  * <a href="https://github.com/cmjcum"><i class="bi bi-github" style="color: #228b22;">Team Github</i></a>&nbsp | &nbsp<a href="https://www.notion.so/typingmylife/0f05d8b0a0ca43cbb75324377b035297"><i class="bi bi-journal-text" style="color: #228b22;">프로젝트 목록</i></a>
+
+<div style="font-weight: bold">
+<ul>
+  <li>스파르타 코딩클럽 내일배움캠프 2기(2022/04 ~ 2022/08)
+    <ul>
+      <li>실무형 AI 웹 개발자 과정 수료</li>
+      <li>기간 중 팀 프로젝트 진행</li>
+      <li><a href="https://github.com/cmjcum"><i class="bi bi-github" style="color: #228b22;">Team Github</i></a>  |  <a href="https://www.notion.so/typingmylife/0f05d8b0a0ca43cbb75324377b035297"><i class="bi bi-journal-text" style="color: #228b22;">프로젝트 목록</i></a></li>
+    </ul>
+  </li>
+</ul>
+</div>
 <br/>
 <br/>
 
@@ -56,20 +65,19 @@ layout: about
 <table>
   <tbody>
     <tr>
-      <th><i class="bi bi-envelope">&nbsp</i>E-mail</th>
+      <th><i class="bi bi-envelope"> </i>E-mail</th>
       <td>lhg9714@gmail.com</td>
     </tr>
     <tr>
-      <th><i class="bi bi-github">&nbsp</i>GitHub</th>
+      <th><i class="bi bi-github"> </i>GitHub</th>
       <td><a href="https://github.com/LULULALA2">github.com/LULULALA2</a></td>
     </tr>
     <tr>
-      <th><i class="bi bi-bookmarks">&nbsp</i>Blog</th>
+      <th><i class="bi bi-bookmarks"> </i>Blog</th>
       <td><a href="https://lululala-2.tistory.com">lululala-2.tistory.com</a></td>
     </tr>
   </tbody>
 </table>
-
 <br/>
 <br/>
 
@@ -111,9 +119,8 @@ layout: about
     </tr>      
   </tbody>
 </table>
-
-<br>
-<br>
+<br/>
+<br/>
 
 <table>
   <tbody>
@@ -149,9 +156,8 @@ layout: about
     </tr>
   </tbody>
 </table>
-
-<br>
-<br>
+<br/>
+<br/>
 
 <table>
   <tbody>
@@ -186,9 +192,8 @@ layout: about
     </tr>
   </tbody>
 </table>
-
-<br>
-<br>
+<br/>
+<br/>
 
 <table>
   <tbody>
@@ -223,6 +228,5 @@ layout: about
   </tbody>
 </table>
 </div>
-
-<br>
-<br>
+<br/>
+<br/>
