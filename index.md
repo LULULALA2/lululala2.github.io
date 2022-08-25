@@ -37,7 +37,7 @@ layout: about
 </table>
 <br/>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lululala2&layout=compact)](https://github.com/lululala2/github-readme-stats)
+<p><a href="https://github.com/lululala2/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lululala2&amp;layout=compact" alt="Top Langs" /></a></p>
 
 <br/>
 <br/>
