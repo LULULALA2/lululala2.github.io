@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -12,15 +14,14 @@ body {
     padding: 0
 }
 
-@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
 html {
-    font-family: 'Iropke Batang', "Libre Baskerville", "Times New Roman", Times, serif;
-    font-size: 14px
+    font-family: "Gowun Dodum", "Gowun Dodum", "Libre Baskerville", "Times New Roman", Times, serif;
+    font-size: 16px
 }
 
 @media (min-width: 600px) {
     html {
-        font-size: 16px
+        font-size: 18px
     }
 }
 
@@ -35,8 +36,21 @@ h4,
 h5,
 h6 {
     color: #353535;
-    font-family: 'Gowun Dodum', "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "Gowun Dodum", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
     line-height: normal
+}
+
+li,
+ul,
+p {
+    color: #3f3f3f;
+    font-family: "Gowun Dodum", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: normal
+}
+
+li,
+ul {
+    padding: 0.1rem 0.2rem 0.2rem 0.7rem
 }
 
 a {
@@ -67,8 +81,15 @@ img {
     max-width: 100%
 }
 
+th {
+    white-space: nowrap;
+}
+
+th,
 td {
-    vertical-align: top
+    line-height: 180%;
+    text-align: left;
+    padding-right: 10px;
 }
 
 pre,
@@ -370,7 +391,7 @@ pre code {
 
 .pagination {
     border-top: 0.5px solid #e5e5e5;
-    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
+    font-family: "Gowun Dodum", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
     padding-top: 2rem;
     position: relative;
     text-align: center
@@ -386,7 +407,6 @@ pre code {
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     color: #555;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
     opacity: .6
 }
@@ -395,16 +415,17 @@ pre code {
     opacity: 1
 }
 
-.pagination .arrow {
+.pagination .next {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     color: #555;
+    font-size: 0.9rem;
     position: absolute
 }
 
-.pagination .arrow:hover,
-.pagination .arrow:focus {
+.pagination .next:hover,
+.pagination .next:focus {
     opacity: .6;
     text-decoration: none
 }
@@ -417,38 +438,69 @@ pre code {
     right: 0
 }
 
-.catalogue-item {
+.about .profile {
+    text-align: center;
+    margin-top: 3%
+}
+
+.about .profile .selfie {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 100%
+}
+
+.about .profile .info {
+    margin-top: 1.5%;
+    margin-bottom: 2%
+}
+
+.about .profile .info .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black
+}
+
+.about .profile .info .description {
+    font-size: 1rem;
+    color: gray
+}
+
+.about-icon {
+    margin-left: 1.3rem;
+    line-height: 2rem
+}
+
+.about-icon-text {
+    margin-left: 0.8rem
+}
+
+.portfolio-item {
     border-bottom: 1px solid #e5e5e5;
     color: #555;
     display: inline-block;
     padding: 2rem 0
 }
 
-.catalogue-item:hover .catalogue-line,
-.catalogue-item:focus .catalogue-line {
+.portfolio-item:hover .portfolio-line,
+.portfolio-item:focus .portfolio-line {
     width: 5rem
 }
 
-.catalogue-item:last-child {
+.portfolio-item:last-child {
     border: 0
 }
 
-.catalogue-time {
-    color: #aaa;
-    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
-    letter-spacing: .5px
-}
-
-.catalogue-title {
+.portfolio-title {
     color: #353535;
     display: block;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "Gowun Dodum", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: bold;
     margin: .5rem 0
 }
 
-.catalogue-line {
+.portfolio-line {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -457,32 +509,20 @@ pre code {
     width: 2rem
 }
 
-.about {
-    text-align: center;
-    margin-top: 3%
+.portfolio-content {
+    margin-top: 1rem;
+    color: #353535;
+    font-family: "Gowun Dodum", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 1rem
 }
 
-.about .selfie {
-    display: block;
-    width: 120px;
-    margin: 0 auto;
-    border-radius: 100%
+.portfolio-icon {
+    margin-left: 1.3rem;
+    line-height: 2rem
 }
 
-.about .info {
-    margin-top: 1.5%;
-    margin-bottom: 2%
-}
-
-.about .info .title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: black
-}
-
-.about .info .description {
-    font-size: 1rem;
-    color: gray
+.portfolio-icon-text {
+    margin-left: 0.8rem
 }
 
 .post {
@@ -501,8 +541,8 @@ pre code {
 }
 
 .post-title {
-    color: #353535;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 2px #3f3f3f;
+    font-family: "Gowun Dodum", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 3rem;
     margin: 1rem 0;
     text-align: center
@@ -531,7 +571,7 @@ pre code {
 .post img+em {
     color: #aaa;
     display: block;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: "Gowun Dodum", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 0.9rem;
     font-style: normal;
     text-align: center
@@ -606,7 +646,7 @@ footer,
 
 .nav a {
     color: #555;
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif
+    font-family: "Gowun Dodum", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif
 }
 
 @media (min-width: 600px) {
@@ -646,4 +686,4 @@ footer span {
 
 .social-layer .social-icons ul li {
     display: inline
-} 
+}
