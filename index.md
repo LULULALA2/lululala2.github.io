@@ -2,15 +2,24 @@
 layout: about 
 ---
 
+<div class="profile">
+  <img class="selfie" alt="selfie" src="assets/img/profile.png" />
+  <div class="info">
+    <div class="title">이현경</div>
+    <div class="title">Lee Hyeon Gyeong</div>
+    <div class="description">주니어 백엔드 개발자</div>
+  </div>
 
-# About Me
-<strong style="color: rgb(80, 80, 80); line-height: 170%;">백엔드를 위주로 공부하고 있지만 프론트엔드에도 흥미가 있습니다.
-<br/>Python 기반의 Flask, Django, DRF를 이용한 ML 웹페이지 제작 팀 프로젝트를 진행하면서 프론트엔드와 백엔드를 가리지 않고 맡았습니다. 프론트는 AWS S3, cloudfront로 CICD는 git actions을 통해 배포해본 적이 있으며, 백엔드는 docker를 이용하여 AWS EC2로 배포해본 경험이 있습니다.</strong>
-<br/>
+
+<h1 id="about-me">About Me</h1>
+<p style="font-weight: bold; color: rgb(80, 80, 80); line-height: 170%;">백엔드를 위주로 공부하고 있지만 프론트엔드에도 흥미가 있습니다.
+<br />Python 기반의 Flask, Django, DRF를 이용한 ML 웹페이지 제작 팀 프로젝트를 진행하면서 프론트엔드와 백엔드를 가리지 않고 맡았습니다. 
+프론트는 AWS S3, cloudfront로 CICD는 git actions을 통해 배포해본 적이 있으며, 백엔드는 docker를 이용하여 AWS EC2로 배포해본 경험이 있습니다.
+</p>
+<br />
 
 
-## Skill
-
+<h2 id="skill">Skill</h2>
 <table>
   <tbody>
     <tr>
@@ -38,30 +47,12 @@ layout: about
 </table>
 <br/>
 
-<p><a href="https://github.com/lululala2/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lululala2&amp;layout=compact" alt="Top Langs" /></a></p>
+<p><a href="https://github.com/lululala2"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lululala2&amp;layout=compact" alt="Top Langs"/></a></p>
 <br/>
 <br/>
 
 
-# Career
-
-<div style="font-weight: bold">
-<ul>
-  <li>스파르타 코딩클럽 내일배움캠프 2기(2022/04 ~ 2022/08)
-    <ul>
-      <li>실무형 AI 웹 개발자 과정 수료</li>
-      <li>기간 중 팀 프로젝트 진행</li>
-      <li><a href="https://github.com/cmjcum"><i class="bi bi-github" style="color: #228b22;">Team Github</i></a>  |  <a href="https://www.notion.so/typingmylife/0f05d8b0a0ca43cbb75324377b035297"><i class="bi bi-journal-text" style="color: #228b22;">프로젝트 목록</i></a></li>
-    </ul>
-  </li>
-</ul>
-</div>
-<br/>
-<br/>
-
-
-# Contacts
-
+<h1 id="Contacts">Contacts</h1>
 <table>
   <tbody>
     <tr>
@@ -82,8 +73,24 @@ layout: about
 <br/>
 
 
-# Projects
+<h1 id="career">Career</h1>
 
+<div style="font-weight: bold">
+<ul>
+  <li>스파르타 코딩클럽 내일배움캠프 2기(2022/04 ~ 2022/08)
+    <ul>
+      <li>실무형 AI 웹 개발자 과정 수료</li>
+      <li>기간 중 팀 프로젝트 진행</li>
+      <li><a href="https://github.com/cmjcum"><i class="bi bi-github" style="color: #228b22;">Team Github</i></a>  |  <a href="https://www.notion.so/typingmylife/0f05d8b0a0ca43cbb75324377b035297"><i class="bi bi-journal-text" style="color: #228b22;">프로젝트 목록</i></a></li>
+    </ul>
+  </li>
+</ul>
+</div>
+<br/>
+<br/>
+
+
+<h1 id="projects">Projects</h1>
 <div style="font-weight: bold">
 <table>
   <tbody>
@@ -223,7 +230,7 @@ layout: about
     </tr>
     <tr>
       <th>Links</th>
-      <td><a href="https://github.com/cmjcum/Jellymodi_team"><i class="bi bi-github" style="color: #228b22;">Team Github</i></a>&nbsp | &nbsp
+      <td><a href="https://github.com/cmjcum/Jellymodi_team"><i class="bi bi-github" style="color: #228b22;">Team Github</i></a> | 
       <a href="https://www.notion.so/typingmylife/Jellymodi-5e43c9f96bb04da7b4de26aac6eceeca"><i class="bi bi-journal-text" style="color: #228b22;">Team Notion</i></a></td>
   </tbody>
 </table>
