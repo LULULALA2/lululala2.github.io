@@ -50,6 +50,7 @@ ul {
 
 a {
   color: #228b22;
+  text-decoration: none;
 }
 
 blockquote {
@@ -80,4 +81,8 @@ th {
 }
 td {
   vertical-align: middle;
+}
+
+td-line {
+  text-decoration: underline !important;
 }
