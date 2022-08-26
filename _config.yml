@@ -6,10 +6,11 @@ google_analytics: # Tracking ID, e.g. "UA-000000-01"
 
 # Author
 author:
-  name: 이현경 Lee Hyeon Gyeong
+  name: 이현경
+  en_name: Lee Hyeon Gyeong
   desc: 주니어 백엔드 개발자
   email: lhg9714@naver.com
-  selfie: assets/img/profile.jpg
+  selfie: assets/img/profile.png
 
 # social
 social:
