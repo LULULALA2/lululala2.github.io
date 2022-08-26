@@ -49,8 +49,7 @@ ul {
 }
 
 a {
-  color: #999;
-  text-decoration: none;
+  color: #228b22;
 }
 
 blockquote {
@@ -74,6 +73,11 @@ img {
   max-width: 100%;
 }
 
+th {
+  white-space: nowrap;
+  text-align: left;
+  padding-right: 15px;
+}
 td {
-  vertical-align: top;
+  vertical-align: middle;
 }
