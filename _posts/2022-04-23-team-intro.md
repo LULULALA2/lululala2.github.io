@@ -3,80 +3,54 @@ layout: post
 title:  "Team Intro"
 info: "팀 소개 페이지 제작"
 tech: "Python, Flask, MongoDB"
-type: Toy 
+type: Mini 
 ---
 
 
+# Team Intro
 
-![logo](https://camo.githubusercontent.com/94b1c3641c1dbabac16cfff75bd7604185177535669be244ef38db5b904acdeb/68747470733a2f2f696d67312e6461756d63646e2e6e65742f7468756d622f523132383078302f3f73636f64653d6d746973746f72793226666e616d653d6874747073253341253246253246626c6f672e6b616b616f63646e2e6e6574253246646e25324663525a7957772532466274724a326e6256304c79253246563074684c36744e6a4a4b6e6b5072487369596c4a4b253246696d672e706e67)
-
-
-
-
-# \[웹소설] 일타강사 AI의 기막힌 추천
-
-네이버 시리즈에서 판매중인 웹소설 작품의 작품정보를 크롤링하여 얻은 줄거리를 자연어 처리를 하여  웹소설의 스토리를 벡터 임베딩을 통해 사용자가 선호한 소설의 줄거리와 유사도가 높은 작품을 추천해주는 서비스
+팀 코딩 못 하면 죽는 병 걸림(코못죽)의 각 팀원에 대해 간단한 소개를 하는 웹페이지 제작하는 미니 프로젝트
 
 <br>
 
-**프로젝트에 대한 나의 역할** → [**"보러가기👀"**](#프로젝트에-대한-나의-역할-및-경험)
+>[`🔗시연영상`](https://tv.kakao.com/v/428662054)
 
 <br>
 
->[`🔗시연영상`](https://tv.kakao.com/v/429567788)
-
-<br>
-
-|![image](https://user-images.githubusercontent.com/104331869/185335939-524bba9a-0f3c-46a1-bd07-628a852fbab2.png)|![image](https://user-images.githubusercontent.com/104331869/185335986-2b364717-cbd4-4d6b-9d8d-402d934dfaab.png)|![image](https://user-images.githubusercontent.com/104331869/185336258-a03c1dc7-d0c8-450b-8db2-bf3b6d94ec27.png)|![image](https://user-images.githubusercontent.com/104331869/185336306-f071016c-1077-445c-98e0-03f19b8cf29e.png)|
-|:---:|:---:|:---:|:---:|
-|로그인|회원가입|메인 페이지|장르별 작품 리스트|
-|![image](https://user-images.githubusercontent.com/104331869/185338031-62118c95-2fd7-4860-b2da-75ae1f22fcaf.png)|![image](https://user-images.githubusercontent.com/104331869/185337856-1f08eb63-35d1-4712-8d2a-0a13cbaa16a0.png)|![image](https://user-images.githubusercontent.com/104331869/185338071-2d4bd6e3-3b71-4bf8-9525-41ee2b988a0f.png)|![image](https://user-images.githubusercontent.com/104331869/185338306-4d1e7365-9d8c-47bc-ba02-c855c837b2d3.png)|
-|검색 결과|작품 상세 페이지|마이 페이지|나의 리뷰 모아보기|
+![4](https://user-images.githubusercontent.com/71905164/185337250-d555f9e9-8207-465e-91cb-a411fb2bfa18.png)
 
 <br>
 
 ## 프로젝트 기간
 
-2022-06-02 ~ 2022-06-13
+2022-04-23 ~ 2022-05-01
 
 <br>
 
 ## 주요 기능
 
-1. Django 내장 모델을 사용한 회원가입/로그인/로그아웃 기능
-1. 네이버 시리즈에서 판매중인 웹소설 작품의 작품정보를 BeautifulSoup과 Selenium을 이용하여 크롤링
-1. 자연어 처리를 이용해 웹소설의 스토리를 벡터 임베딩
-1. 사용자가 좋아한 작품의 줄거리와 유사도가 높은 작품을 추천
-    * 등록된 선호작이 없다면 별점이 높은 작품들을 추천
-1. 작품에 대한 리뷰 CRUD 기능
-1. 리뷰를 분석하여 가장 많은 키워드 5개 표시 (작품 상세 페이지)
-1. 좋아한 작품의 스토리 키워드 빈도수 상위 10개 표시 (마이 페이지)
+* Flask를 기반으로 mongoDB를 사용하여 방명록을 구현
 
 <br>
 
 ## 프로젝트 기록
 
->[`🔗Github`](https://github.com/cmjcum/webtachu)  
-[`🔗Starting Assignment (tistory)`](https://cold-charcoal.tistory.com/85)
+>[`🔗Github`](https://github.com/cmjcum/team-intro)  
 
 <br>
 
-## 팀 구성 및 역할
-
-| 이름 | 역할 | 깃허브 |
-|:----------|:----------|:----------:|
-| **이정아&nbsp;&nbsp;&nbsp;&nbsp;** | 시민증 발급 페이지, 상점 페이지(back), 방 꾸미기 기능, 딥러닝&nbsp;&nbsp;&nbsp;&nbsp;  | [`🔗zeonga1102`](https://github.com/zeonga1102)|
-| **노을** |게시판 페이지, 상점 페이지(front), 로고 제작 | [`🔗minkkky`](https://github.com/minkkky) |
-| **이현경** | 로그인 및 회원가입 페이지, AWS 배포| [`🔗LULULALA2`](https://github.com/LULULALA2)|
-| **김동근** | 마이 페이지 | [`🔗yinmsk`](https://github.com/yinmsk) |
-
-* 모델제작 - 팀 전체 참여
-
-<br>
 
 ## 스킬 및 사용툴
 
-`Python`, `Django`, `BeautifulSoup`, `Selenium`,`Colab`, `MeCab`, `Doc2Vec`
+`Python`, `Flask`, `MongoDB`
+
+
+### API
+![설계](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLoa3V%2FbtrC6HJtJGC%2FqqBdl1SfpyhdigkX5nonwk%2Fimg.png)
+
+
+### ERD
+![image](https://user-images.githubusercontent.com/71905164/185314066-a6c11140-e6b3-4ef0-b0de-926d68144e39.png)
 
 <br>
 <br>
@@ -86,31 +60,9 @@ type: Toy
 
 ## 나의 역할
 
-**백엔드**
-
 * 
 
 
-**프론트엔드**
-
-* 
-
-
-<br>
-
-### 1.
-
-<br>
-<br>
-
-# 🧨TroubleShooting
-
-
-### 1. 
-
-<br>
-<br>
-<br>
 
 # 회고
 
